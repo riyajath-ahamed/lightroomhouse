@@ -1,8 +1,21 @@
 import React from 'react'
+import Link from 'next/link';
+import { AiOutlineShopping } from 'react-icons/ai'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className="navbar-container">
+    <p className="logo">
+      <Link href="/">LR House</Link>
+    </p>
+    <button type="button" className="cart-icon" onClick="">
+      <AiOutlineShopping/>
+      <span className='cart-item-qty'>
+        {/* cart item should be dynamic to change */}
+        1
+        </span>
+    </button>
+    </div>
   )
 }
 

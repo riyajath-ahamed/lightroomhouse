@@ -117,6 +117,7 @@ width: 100%;
  background-color: #ebebeb;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
+  object-fit: cover;
 }
 
 .product-name{
@@ -136,6 +137,7 @@ width: 100%;
   height: 500px;
   line-height: 0.9; 
   width: 100%;
+  box-shadow: #2d2d2d87 0px 0px 10px 0px;
 
 }
 .hero-banner-container .beats-solo{
@@ -219,7 +221,7 @@ text-shadow: #ebebeb 0px 0px 10px;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #041d43;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -227,6 +229,7 @@ text-shadow: #ebebeb 0px 0px 10px;
   color: white;
   width: 100%;
   margin-top: 120px;
+  box-shadow: #313030e7 0px 0px 10px 0px;
 }
 .banner-desc{
   display: flex ;
@@ -236,7 +239,7 @@ text-shadow: #ebebeb 0px 0px 10px;
   border-radius: 15px;
   padding: 10px 16px;
   background-color: white;
-  color: red;
+  color: #041d43;
   border: none;
   margin-top: 40px;
   font-size: 18px;
