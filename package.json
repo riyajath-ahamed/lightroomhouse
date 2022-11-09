@@ -19,8 +19,8 @@
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.2.0",
     "react-icons": "^4.6.0",
-    "stripe": "^8.209.0",
-    "@babel/core": "^7.17.9"
+    "stripe": "^8.209.0"
+    
   },
   "devDependencies": {
     "eslint": "8.25.0",
