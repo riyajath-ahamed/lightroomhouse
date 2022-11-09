@@ -23,14 +23,14 @@ const [index, setIndex] = useState(0);
             />
 
           </div>
-          {/* <div className= 'small-images-container'>
-            {image?.map ((item, i) =>(
-              <img src= {urlFor(item)} 
+          <div className= 'small-images-container'>
+            {image?.map  ((item, i) =>(
+              <img key={i} src= {urlFor(item)} 
               className={i === index ? 'small-image selected-image' : 'small-image'}
               onMouseEnter= {() => setIndex(i)}
               />
             ))}
-          </div> */}
+          </div>
         </div>
         <div className='product-detail-desc'>
           <h1>{name}</h1>
