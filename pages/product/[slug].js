@@ -17,7 +17,7 @@ const [index, setIndex] = useState(0);
     <div>
       <div className='product-detail-container'>
         <div>
-          <div className='image-container'>
+          {/* <div className='image-container'>
             <img src={urlFor(image && image[index])} 
             className="product-detail-image"
             />
@@ -30,7 +30,7 @@ const [index, setIndex] = useState(0);
               onMouseEnter= {() => setIndex(i)}
               />
             ))}
-          </div>
+          </div> */}
         </div>
         <div className='product-detail-desc'>
           <h1>{name}</h1>
