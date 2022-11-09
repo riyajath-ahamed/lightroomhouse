@@ -9,6 +9,8 @@ const ProductDetails = ( {product, products}) => {
 const {image, name, price, description} = product;
 const [index, setIndex] = useState(0);
 
+
+
   return (
 
 
@@ -53,7 +55,7 @@ const [index, setIndex] = useState(0);
           >Add to Cart
           </button>
           <button type='button' className='buy-now'
-          onClick=""
+          onClick="handleBuyNow"
           >Buy Now
           </button>
         </div>
